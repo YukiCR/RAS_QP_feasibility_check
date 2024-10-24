@@ -8,7 +8,7 @@ load("./failExampleData.mat")
 % b_mat: $B_{[\cdot]}$ in Eq. (40), each element for a constraint
 % a_omega_mat: $a_{[\cdot]}$ in Eq. (40), each element for a constraint
 %
-% Since constraints in QP is linear, we use `linprog` to check feasiblity, 
+% Since constraints in QP are linear, we use `linprog` to check feasiblity, 
 %    exitflag == -2 for infeasible
 %    exitflag == 1 for converged (feasible)
 %    exitflag == 3 for unbounded (feasible)
